@@ -1,0 +1,19 @@
+1 - O que são sistemas embarcados?
+R: Sistemas embarcados são a junção de componentes de hardware e software, que quando combinados provém uma solução específica para um problema previamente determinado.
+
+2 - O que são sistemas microprocessados?
+R: Sistemas microprocessados são formados por unidades de controle (CPU) que executam uma série de operações matemáticas, de forma a prover espostas às entradas no sistema. A CPU sozinha não é capaz de modificar o meio de forma a prover essa resposta, necessitando assim da complementação via hardware periférico para que o sistema fique completo. Esses periféricos incluem memória de dados, memória RAM, monitores, etc.
+
+3 - Apresente aplicações de sistemas embarcados: (a) Para a indústria automotiva; (b) Para eletrodomésticos; (c) Para automação industrial.
+R:	a) Painel do carro, que integra uma série de sensores externos para auxiliar em diversas funções, como a de Ré.
+	b) Um microondas, em que o usuário entra com o tempo de aquecimento num painel de interação.
+	c) Robôs seguidores de linha, em que o sistema embarcado está justamente na operação que esses robôs realizam de movimentação dentro do espaço industrial.
+
+4 - Cite arquiteturas possíveis e as diferenças entre elas.
+R: Microcontroladores, GPPs, DSPs, FPGAs, ASICs, SoCs, MPSoCs
+	Microcontroladores: arquitetura que dispõe tanto da CPU, quanto dos periféricos de memória e entradas e saídas num único encapsulamento.
+	GPPs: Ao contrário dos especializados, podem executar qualquer software apresentado, embora isso leve a uma perda de eficiência quando comparados com as arquiteturas para sistemas específicos.
+	DSPs: são microprocessadores especializados em processamento de sinais de vídeo, áudio, etc.
+	FPGAs: são dispositivos utilizados em larga escala para processamento de informações digitais, sendo que sua maior vantagem é o fato do hardware ser reconfigurável, fazendo com que seja possível adaptá-lo as mais diversas situações.
+
+
