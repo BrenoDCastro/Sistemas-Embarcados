@@ -1,8 +1,8 @@
 1 - O que são sistemas embarcados?
-R: Sistemas embarcados são a junção de componentes de hardware e software, que quando combinados provém uma solução específica para um problema previamente determinado.
+R: 	Sistemas embarcados são a junção de componentes de hardware e software, que quando combinados provém uma solução específica para um problema previamente determinado.
 
 2 - O que são sistemas microprocessados?
-R: Sistemas microprocessados são formados por unidades de controle (CPU) que executam uma série de operações matemáticas, de forma a prover espostas às entradas no sistema. A CPU sozinha não é capaz de modificar o meio de forma a prover essa resposta, necessitando assim da complementação via hardware periférico para que o sistema fique completo. Esses periféricos incluem memória de dados, memória RAM, monitores, etc.
+R:	Sistemas microprocessados são formados por unidades de controle (CPU) que executam uma série de operações matemáticas, de forma a prover espostas às entradas no sistema. A CPU sozinha não é capaz de modificar o meio de forma a prover essa resposta, necessitando assim da complementação via hardware periférico para que o sistema fique completo. Esses periféricos incluem memória de dados, memória RAM, monitores, etc.
 
 3 - Apresente aplicações de sistemas embarcados: (a) Para a indústria automotiva; (b) Para eletrodomésticos; (c) Para automação industrial.
 R:	a) Painel do carro, que integra uma série de sensores externos para auxiliar em diversas funções, como a de Ré.
@@ -15,5 +15,10 @@ R: Microcontroladores, GPPs, DSPs, FPGAs, ASICs, SoCs, MPSoCs
 	GPPs: Ao contrário dos especializados, podem executar qualquer software apresentado, embora isso leve a uma perda de eficiência quando comparados com as arquiteturas para sistemas específicos.
 	DSPs: são microprocessadores especializados em processamento de sinais de vídeo, áudio, etc.
 	FPGAs: são dispositivos utilizados em larga escala para processamento de informações digitais, sendo que sua maior vantagem é o fato do hardware ser reconfigurável, fazendo com que seja possível adaptá-lo as mais diversas situações.
+	ASICs: diferente dos GPPs, os ASICs circuitos integrados que são desenvolvidos para uma solução específica, sendo que todo seu sistema está dentro de um único chip (por isso é comumente descrito como um SoC). Podem ser desenvolvidos em linguagens como HDL, VHDL e Verilog.
+	SoCs e MPSoCs: são circuitos integrados que contém CPU e seus periféricos todos compactados em um único chip. Normalmente são utilizados para aplicações que requerem maior capacidade de processamento para rodar softwares como Linux e Windows.
+
+5 - Por que usamos o Raspberry Pi na disciplina, ao invés de outro system-on-chip?
+R:	Pela relação custo-benefício que a Raspberry apresenta com relação aos SoCs.
 
 
