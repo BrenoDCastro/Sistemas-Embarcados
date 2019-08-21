@@ -1,0 +1,60 @@
+1. Por que o Linux recebeu esse nome?
+R: Esse nome provém do fato de que o criador dessa variante chama-se Linus Tornalds, se o X uma referência ao Unix.
+
+2. O que são daemons?
+R: São programas que são executados ao fundo, sem que o usuário tenha o controle sobre eles. Geralmente são inicializados no momento do boot do computador, sendo utilizados para inicializar tarefas importantes que possuem papel-chave dentro do funcionamento do sistema operacional, como os requisitos de rede.
+
+3. O que é o shell?
+R: Shell pode ser bem definido como a camada externa do funcionamento do programa. Ou seja, ele é a interface gráfica que liga o GNU ao kernel.
+
+4. Por que é importante evitar executar o terminal como super-usuário?
+R: Devido as questões de segurança, já que o super-usuário tem acessos quase ilimitados às questões de segurança do computador. Numa situação em que o usuário esquece o PC logado como super-usuário, outra pessoa poderia desconfigurar o computador, bem como apropriar-se de arquivos importantes.
+
+5. Qual botão do teclado completa o que o usuário escreve no terminal, de acordo com o contexto?
+R: A tecla TAB.
+
+6. Quais botões do teclado apresentam instruções escritas anteriormente?
+R: Seta pra cima.
+
+7. Apresente os respectivos comandos no terminal para:
+  (a) Obter mais informações sobre um comando.
+	R:whatis
+  (b) Apresentar uma lista com os arquivos dentro de uma pasta.
+	R: ls
+  (c) Apresentar o caminho completo da pasta.
+	R: pwd
+  (d) Trocar de pasta.
+	R: cd
+  (e) Criar uma pasta.
+	R: mkdir
+  (f) Apagar arquivos definitivamente.
+	R: rm *
+  (g) Apagar pastas definitivamente.
+	R: rmdir
+  (h) Copiar arquivos.
+	R: cp
+  (i) Copiar pastas.
+	R: cp  /pasta /destino
+  (j) Mover arquivos.
+	R: mv
+  (k) Mover pastas.
+	R: mv
+  (l) Renomear pastas.
+	R: mv
+  (m) Apresentar o conteúdo de um arquivo.
+	R: cat
+  (n) Apresentar o tipo de um arquivo.
+	R: file
+  (o) Limpar a tela do terminal.
+	R: clear
+  (p) Encontrar ocorrências de palavras-chave em um arquivo-texto.
+	R: cat "nome".txt | grep
+  (q) Ordenar informações em um arquivo-texto.
+	R: sort
+  (r) Substituir ocorrências de palavras-chave em um arquivo-texto.
+	R: sed -e 's/entra/sai/g' arquivo.txt
+  (s) Conferir se dois arquivos são iguais.
+	R:cmp
+  (t) Escrever algo na tela.
+	R:echo
+
